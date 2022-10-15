@@ -1,11 +1,11 @@
 class MethodOverloading {
-    void display(int a){
+    void display(int a, int b){
         System.out.println("12345");
     }
     void display(int a, double b, double c){
         System.out.println("123 and abc");
     }
-    void display(int a, int b){
+    void display(int a){
         System.out.println("54abcd");
     }
     void display(int a, double b){
